@@ -1,0 +1,38 @@
+body{
+  box-sizing: border-box;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    float: right;
+  }
+
+button:hover{
+  background-color: green;
+  color: white;
+}
+.container {
+  border-radius:5px;
+  background-color: #69c9a6;
+  padding: 2px;
+  margin: auto;
+
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: horizontal;
+}
